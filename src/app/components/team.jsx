@@ -30,6 +30,7 @@ export default function page() {
             <div className='gradient-left'></div>
             <div className="content">
                 <h1 className='fkz4'>Our Team</h1>
+                <p className='fkz4'>Special Thanks For :</p>
                 <div className="container-team">
                     <div className="card fkz4">
                         <div className="banner-container">
