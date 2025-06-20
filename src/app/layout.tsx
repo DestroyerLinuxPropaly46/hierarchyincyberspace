@@ -16,34 +16,34 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Home - Hierarchy In Cyberspace",
   description: "Most powerful clan in Modern Warship",
-  images: [
-    {
-      url: "https://hierarchyincyberspace.fkzproject.my.id/hic.png",
-      width: 1200,
-      height: 630,
-      alt: "Hierarchy In Cyberspace Logo"
-    }
-  ],
   icons: {
-    icon: "/hic.png", 
+    icon: "/hic.png",
   },
   authors: [{ name: "fkzsecXploit.dev" }],
   keywords: [
     "HIC", "Blogger", "Project", "Modern Warship", "Modern Warship Clan", "hierarchy my id",
     "hierarchy in cyberspace", "hierarchy in", "hierarchy cyberspace", "hic hierarchy ic",
-    "fkzsec", "fkzsecxploit", "fkzsecxploit.dev", "fkzsecxploit.com", "fkzsec", "hierarchyincyberspace.my.id",
-    "hierarchyincyberspace clan", "hierarchyincyberspace clan modern warship", "hierarchyincyberspace clan",
-    "hierarchyincyberspace clan modern warship clan", "hierarchyincybers", "hierarchyincyberspace", "hierarchyincyberspace clan",
-    "fkzsec clan", "fkzsec clan modern warship", "fkzsec clan modern warship clan", "hierarchy cyber",
+    "fkzsec", "fkzsecxploit", "fkzsecxploit.dev", "fkzsecxploit.com", "hierarchyincyberspace.my.id",
+    "hierarchyincyberspace clan", "hierarchyincyberspace clan modern warship", "fkzsec clan modern warship clan",
   ],
   robots: "index, follow, max-image-preview:large",
-openGraph: {
+  
+  openGraph: {
     type: "website",
+    url: "https://hierarchyincyberspace.fkzproject.my.id", 
     title: "Home - Hierarchy In Cyberspace",
     description: "Most powerful clan in Modern Warship",
-    images: ["/hic.png"], 
+    images: [
+      {
+        url: "https://hierarchyincyberspace.fkzproject.my.id/hic.png", 
+        width: 1200,
+        height: 630,
+        alt: "Hierarchy In Cyberspace Logo"
+      }
+    ]
   }
 };
+
 
 export default function RootLayout({
   children,
