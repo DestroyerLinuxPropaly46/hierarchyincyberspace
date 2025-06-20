@@ -16,6 +16,14 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Home - Hierarchy In Cyberspace",
   description: "Most powerful clan in Modern Warship",
+  images: [
+    {
+      url: "https://hierarchyincyberspace.fkzproject.my.id/hic.png",
+      width: 1200,
+      height: 630,
+      alt: "Hierarchy In Cyberspace Logo"
+    }
+  ],
   icons: {
     icon: "/hic.png", 
   },
@@ -30,7 +38,7 @@ export const metadata: Metadata = {
   ],
   robots: "index, follow, max-image-preview:large",
 openGraph: {
-    url: "https://hierarchyincyberspace.my.id",
+    url: "https://hierarchyincyberspace.fkzproject.my.id",
     type: "website",
     title: "Home - Hierarchy In Cyberspace",
     description: "Most powerful clan in Modern Warship",
