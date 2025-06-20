@@ -38,7 +38,6 @@ export const metadata: Metadata = {
   ],
   robots: "index, follow, max-image-preview:large",
 openGraph: {
-    url: "https://hierarchyincyberspace.fkzproject.my.id",
     type: "website",
     title: "Home - Hierarchy In Cyberspace",
     description: "Most powerful clan in Modern Warship",
