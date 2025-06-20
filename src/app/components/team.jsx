@@ -219,33 +219,6 @@ export default function page() {
                             </div>
                         </div>
                     </div>
-
-                    <div className="card fkz4">
-                        <div className="banner-container">
-                            <img src="https://i.pinimg.com/originals/7e/bf/3c/7ebf3c9bbd582dcab0d58e2e259b2246.gif" alt="noxleviathan404" />
-                        </div>
-                        <div className="profiles">
-                            <img src="/jolly.avif" alt="fkzsecxploit" />
-                        </div>
-                        <div className="text">
-                            <div className="tx">
-                                <h2>Darkpsyco</h2>
-
-                                <span className="medal sergeant">Sergeant</span>
-                                <div className="sosmed">
-                                    <Link href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
-                                        <FontAwesomeIcon className='icon' icon={faInstagram} />
-                                    </Link>
-                                    <Link href="https://github.com/fkzsecxploit-id" target="_blank" rel="noopener noreferrer">
-                                        <FontAwesomeIcon className='icon' icon={faGithub} />
-                                    </Link>
-                                    <Link href="https://facebook.com/yourusername" target="_blank" rel="noopener noreferrer">
-                                        <FontAwesomeIcon className='icon' icon={faFacebook} />
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
             <div className='gradient-right'></div>
